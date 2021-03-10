@@ -36,7 +36,7 @@ services:
       - botnet
     restart: always
     env_file:
-      - ".env.dist"
+      - "env_template"
     volumes:
       - .:/src
     depends_on:
